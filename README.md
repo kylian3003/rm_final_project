@@ -11,6 +11,7 @@ Versions:
 - Python version used: Python 3.8.5 (default, Jan 27 2021, 15:41:15)
 
 count_racist_tweets.py:
+
 This is a program that counts the number of Tweets, racist Tweets and the percentage of racist Tweets in the standard input of the Linux terminal. Keep in mind that this program is designed to analyse a dataset of Dutch tweets, how to change that will be explained below under 'Changing language'.
 
 Getting started:
@@ -24,12 +25,15 @@ How to use:
 (In the program, you can find additional comments on what each part of the code is for.)
 
 Changing language:
+
 If you wish to change the language the program analyses, you must do this manually by changing the elements in the list in line 20 of count_racist_tweets.py to a list of words in a different language.
 
 Data:
+
 The source of my data is the corpus from the University of Groningen (Rijksuniversiteit Groningen), which collects all Dutch Tweets per data and stores them on their servers as .gz files.
 In terms of files, as mentioned before, it doesn't matter what the file type is.
 A sample file can be found in the repository.
 
 List of racist keywords:
+
 The main source for the list of racist words can be found on https://www.github.com/clips/hades/blob/master/cleaned.csv Although I have made some adjustments to the list, so that it would only contain keywords that express racism towards black people specifically. I also made added a few plurals, as they were not included in the original list. On top of that, I have added a few of the most common English racist terms.
