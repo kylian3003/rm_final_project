@@ -15,8 +15,7 @@ This is a program that counts the number of Tweets, racist Tweets and the percen
 
 Getting started:
 1. Put the repository on your PC by either downloading it as a compressed zip file or by typing 'git clone https://www.github.com/kylian3003/rm_final_project' into your Linux terminal.
-To use the program, you need any type of text file containing Tweets. These Tweets need to each be on a separate line. The text file doesn't matter, as long as you can get the Tweets into the standard input, it works.
-The data I used was in archive files (.gz).
+2. To use the program, you need any type of text file containing Tweets. These Tweets need to each be on a separate line. The text file format doesn't matter, as long as you can get the Tweets into the standard input, it works. (The data I used was in archive files (.gz).)
 
 How to use:
 1. (You can skip this step if you only want to use one file) Make sure all the files/data you want to analyse is in the same folder. This way, all the files can be analysed at once, rather than one by one.
