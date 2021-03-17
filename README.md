@@ -7,8 +7,8 @@ The repository:
 4. README.md
 
 Versions:
-Linux version used: 5.8.0-45-generic
-Python version used: Python 3.8.5 (default, Jan 27 2021, 15:41:15)
+- Linux version used: 5.8.0-45-generic
+- Python version used: Python 3.8.5 (default, Jan 27 2021, 15:41:15)
 
 count_racist_tweets.py:
 This is a program that counts the number of Tweets, racist Tweets and the percentage of racist Tweets in the standard input of the Linux terminal. Keep in mind that this program is designed to analyse a dataset of Dutch tweets, how to change that will be explained below under 'Changing language'.
