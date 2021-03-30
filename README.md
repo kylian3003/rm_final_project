@@ -21,7 +21,7 @@ Getting started:
 
 How to use:
 1. (You can skip this step if you only want to use one file) Make sure all the files/data you want to analyse is in the same folder. This way, all the files can be analysed at once, rather than one by one.
-2. Get the contents of the files into the standard input using cat, or any different tool, as long as it gets the data into the standard input, it works. (Since my data was in compressed gz files, I used a tool provided by the university to put the data into the standard input.) An example command line argument for text files would be cat sample_input.txt | python3 count_racist_tweets.py' (The command I used was 'zless sample_data.gz | tweet2tab text | count_racist_tweets.py', where tweet2tab is a tool provided by the University of Groningen to parse such files)
+2. The second step is getting the content into the standard input, which can be done in two ways. You can use the tweet2tab program: 'zless sample_data.gz | tweet2tab text | python3 count_racist_tweets.py'. Or you can use another file that already has the correct input such as a text file: 'cat sample_input.txt | python3 count_racist_tweets.py'.
 3. The program will now collect all the data, which might take a while, depending on the size of your dataset. The results will be printed to a convenient table.
 (In the program, you can find additional comments on what each part of the code is for.)
 
@@ -34,6 +34,7 @@ Data:
 The source of my data is the corpus from the University of Groningen (Rijksuniversiteit Groningen), which collects all Dutch Tweets per data and stores them on their servers as .gz files.
 In terms of files, as mentioned before, it doesn't matter what the file type is.
 A sample file can be found in the repository. The results from the full data set and the sample data can be found in data.xlsx
+The data I used was the first 1000000 tweets from each month.
 
 List of racist keywords:
 
