@@ -33,7 +33,7 @@ Data:
 
 The source of my data is the corpus from the University of Groningen (Rijksuniversiteit Groningen), which collects all Dutch Tweets per data and stores them on their servers as .gz files.
 In terms of files, as mentioned before, it doesn't matter what the file type is.
-A sample file can be found in the repository. The results from the full data set and the sample data can be found in data.xlsx
+A sample file can be found in the repository. The results from the full data set and the sample data can be found in data.xlsx.
 The data I used was the first 1000000 tweets from each month.
 
 List of racist keywords:
