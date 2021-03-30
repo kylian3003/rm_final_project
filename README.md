@@ -38,3 +38,7 @@ A sample file can be found in the repository. The results from the full data set
 List of racist keywords:
 
 The main source for the list of racist words can be found on https://www.github.com/clips/hades/blob/master/cleaned.csv Although I have made some adjustments to the list, so that it would only contain keywords that express racism towards black people specifically. I also made added a few plurals, as they were not included in the original list. On top of that, I have added a few of the most common English racist terms.
+
+Further note:
+
+Unfortunately I was unable to add the full dataset used, due to a recurring error while trying to push the files to the repository. But like I mentioned before, I added a sample data file, along with a sample input file. The output for this is available in the data.xlsx file.
